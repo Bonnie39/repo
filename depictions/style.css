@@ -1,0 +1,69 @@
+/* Reset for small screens */
+@media (max-width: 767px) {
+    body {
+      background: #2d283e !important;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      box-sizing: border-box;
+    }
+  }
+  
+  /* Jumbotron background color */
+  .jumbotron-bg {
+    background: #6a5acd;
+  }
+  
+  /* Custom styling for alerts */
+  .alert {
+    margin-bottom: 15px;
+  }
+  
+  /* Container styles */
+  .container {
+    margin-top: 20px;
+  }
+  
+  /* Jumbotron styles */
+  .jumbotron {
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: #3a3258;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  .jumbotron h1 {
+    font-size: 36px;
+  }
+  
+  /* Description list styles */
+  .list-group-item {
+    border: none;
+  }
+  
+  /* Badge styles */
+  .badge {
+    background-color: #6a5acd;
+  }
+  
+  /* Contact info styles */
+  #contactInfo {
+    margin-top: 30px;
+  }
+  
+  #contactInfo h5 {
+    margin-bottom: 15px;
+  }
+  
+  /* Custom link-item styles */
+  .link-item {
+    color: #6a5acd;
+    text-decoration: none;
+  }
+  
+  .link-item:hover {
+    text-decoration: underline;
+  }
+  

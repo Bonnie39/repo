@@ -1,0 +1,80 @@
+body {
+    background: #2d283e !important;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+  
+  /* Container styles */
+  .container {
+    margin-top: 20px;
+  }
+  
+  /* Header styles */
+  h1 {
+    color: #fff;
+    font-size: 36px;
+  }
+  
+  /* Brand image styles */
+  h1 img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  /* Well styles */
+  .well {
+    background-color: #3a3258;
+    border: 1px solid #6a5acd;
+    border-radius: 5px;
+    padding: 15px;
+    color: #fff;
+  }
+  
+  .text-primary b {
+    color: #6a5acd;
+  }
+  
+  .btn-default {
+    background-color: #6a5acd;
+    color: #fff;
+    border-color: #6a5acd;
+  }
+  
+  .btn-default:hover,
+  .btn-default:focus {
+    background-color: #3a3258;
+    border-color: #3a3258;
+  }
+  
+  /* Page header styles */
+  .page-header {
+    color: #6a5acd;
+  }
+  
+  /* Panel styles */
+  .panel-default {
+    background-color: #3a3258;
+    border: 1px solid #6a5acd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .panel-heading {
+    background-color: #6a5acd;
+    color: #fff;
+    border-bottom: 1px solid #6a5acd;
+  }
+  
+  .panel-body {
+    color: #fff;
+  }
+  
+  /* Button styles */
+  .btn-xs {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  
