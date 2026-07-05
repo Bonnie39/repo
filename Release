@@ -1,8 +1,12 @@
-Origin: BonnieDev
-Label: BonnieDev
+Origin: Bonnie's Repo
+Label: Bonnie's Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Bonnie Nilsen's Repo
+Description: A neat little place for my projects to live.
+
+SHA256:
+ acab0a55905939ce78c3aebb629b88cb8001768b6c2426b5d295e918783aa9f2 553 Packages.bz2
+ 9883d312576e728dc2b230d3e3917c015c4efa14aa2e6534a15bc8f1530a5c8e 560 Packages.xz

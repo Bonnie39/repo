@@ -1,48 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>BonnieDev</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/styles.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0">
+    <title>Bonnie&#x27;s Repo</title>
+    <link rel="stylesheet" type="text/css" href="web/index.css">
+    <style>a, .tint {color: #7134eb} .active {color: #7134eb}</style>
+    <meta name="description" content="A neat little place for my projects to live.">
+    <meta property="og:title" content="Bonnie&#x27;s Repo">
+    <meta property="og:description" content="A neat little place for my projects to live.">
+    <meta property="og:image" content="https://repo.bonnie39.com/CydiaIcon.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Bonnie&#x27;s Repo">
+    <meta name="twitter:description" content="A neat little place for my projects to live.">
+    <meta name="twitter:image" content="https://repo.bonnie39.com/CydiaIcon.png">
+    <meta name="theme-color" content="#7134eb">
 </head>
 <body>
-
-<div class="container">
-	<h1><img src="brand.png"> BonnieDev</h1>
-</div>
-
-<div class="container">
-	<div class="well">
-		<p><span class="text-primary"><b>Bonnie Nilsen's</span></b> repo.</p>
-		<a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://bonnie39.github.io/repo/">Add to Sileo</a>
-	</div>
-</div>
-
-<div class="container">
-  <h3 id="wells" class="page-header">Featured Packages</h3>
-</div>
-
-<!-- <div class="container">
-	<div class="panel panel-default">
-	  <div class="panel-heading">Old Package</div>
-	  <div class="panel-body">
-		This is a sample package with minimal information.
-		It also simulates an old package that's incompatible only with iOS lower than 7.0.<br /><br />
-		<a class="btn btn-xs btn-default" href="depictions/?p=com.aatoz.oldpackage">More info</a>
-	  </div>
-	</div>
-
-	<div class="panel panel-default">
-	  <div class="panel-heading">New Package</div>
-	  <div class="panel-body">
-		This is a sample package with lots of information.<br /><br />
-		<a class="btn btn-xs btn-default" href="depictions/?p=com.aatoz.newpackage">More info</a>
-	  </div>
-	</div>
-</div> -->
-
+    <div class="body">
+        <h1 class="header left_float">Bonnie&#x27;s Repo</h1>
+        <a class="header right_float add_sileo tint" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.bonnie39.com">+</a>
+        <div class="scroll_view">
+            <a href="depiction/web/com.bonnie39.cyleo.html" style="background-image: url(assets/com.bonnie39.cyleo/banner.png)" class="card">
+                <p>Cydia</p>
+            </a>
+        </div>
+        <h2 class="header">Packages</h2>
+        <div class="packageList">
+                <a class="subtle_link" href="depiction/web/com.bonnie39.cyleo.html">
+                    <div class="package">
+                        <img src="assets/com.bonnie39.cyleo/icon.png">
+                        <div class="package_info">
+                            <p class="package_name">Cydia</p>
+                            <p class="package_caption">Bonnie Anderson</p>
+                        </div>
+                    </div>
+                </a>
+        </div>
+        <div class="caption center footer">Silica 1.2.2 – Updated 2026-07-05</div>
+    </div>
 </body>
+    <script src="web/index.js"></script>
 </html>

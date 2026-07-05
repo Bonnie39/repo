@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0">
+    <title>Cydia</title>
+    <link rel="stylesheet" type="text/css" href="../../web/index.css">
+    <style>a, .tint, .table-btn:after {color: #a16f33} .active {color: #a16f33;border-bottom: 2px solid #a16f33;}</style>
+    <script src="../../web/index.js"></script>
+    <meta name="description" content="A package by Bonnie Anderson for iOS 12.0 to 27.0.">
+    <meta property="og:title" content="Cydia">
+    <meta property="og:description" content="A package by Bonnie Anderson for iOS 12.0 to 27.0.">
+    <meta property="og:image" content="../../assets/com.bonnie39.cyleo/banner.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cydia">
+    <meta name="twitter:description" content="A package by Bonnie Anderson for iOS 12.0 to 27.0.">
+    <meta name="twitter:image" content="https://repo.bonnie39.com/assets/com.bonnie39.cyleo/banner.png">
+    <meta name="theme-color" content="#a16f33">
+</head>
+<body>
+    <div class="body">
+        <div style="background-image: url(../../assets/com.bonnie39.cyleo/banner.png)" class="banner_underlay"></div>
+        <div class="package package_head">
+            <img src="../../assets/com.bonnie39.cyleo/icon.png">
+            <div class="package_info">
+                <h1 class="package_name">Cydia</h1>
+                <p class="package_caption">Bonnie Anderson</p>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="nav_btn active tweak_info_btn" onclick="swap('.changelog','.tweak_info');">Details</div>
+            <div class="nav_btn changelog_btn" onclick="swap('.tweak_info','.changelog');">Changelog</div>
+        </div>
+        <div class="tweak_info">
+            <p class="compatibility"><b>Compatibility:</b> This package is compatible with iOS iOS 12.0 to 27.0.</p>
+            
+            <div class="md_view">
+                <p>A modern APT package manager.</p>
+            </div>
+            <h3>Information</h3>
+            <div class="table">
+                <div class="cell">
+                    <div class="title">Developer</div>
+                    <div class="text">Bonnie Anderson</div>
+                    <br><br>
+                </div>
+                <div class="cell">
+                    <div class="title">Version</div>
+                    <div class="text">2.5.1</div>
+                    <br><br>
+                </div>
+                <div class="cell">
+                    <div class="title">Compatibility</div>
+                    <div class="text">iOS 12.0 to 27.0</div>
+                    <br><br>
+                </div>
+                <div class="cell">
+                    <div class="title">Section</div>
+                    <div class="text">Packaging</div>
+                    <br><br>
+                </div>
+            </div>
+            <a href="https://github.com/Bonnie39/Cyleo" class="table-btn">
+                <div>View Source Code</div>
+            </a>
+        </div>
+        <div class="changelog">
+            <div class="changelog_entry">
+                <h4>2.5.1</h4>
+                <div class="md_view"><p>Initial release.</p>
+</div>
+            </div>
+        </div>
+        <div class="caption center footer">Silica 1.2.2 – Updated 2026-07-05</div>
+    </div>
+</body>
+<script>compatible("12.0","27.0","iOS 12.0 to 27.0");externalize()</script>
+</html>
