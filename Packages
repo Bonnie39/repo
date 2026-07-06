@@ -1,0 +1,22 @@
+Package: com.bonnie39.cyleo
+Version: 2.5.1
+Architecture: arm64
+Maintainer: Bonnie Anderson <bwest671@icloud.com>
+Filename: pkg/com.bonnie39.cyleo.deb
+Size: 6747608
+MD5sum: 274848bd82426847b0b34710085f49d5
+SHA1: c6fc38ee918483f69ce1e1bee76e001957d7897b
+SHA256: cbf7dab20c52606ba834328fd64afd29969020805cdef5a0135c88f300962c09
+Section: Packaging
+Homepage: https://repo.bonnie39.com
+Description: A modern APT package manager.
+Tag: role::enduser
+Author: Bonnie Anderson <bwest671@icloud.com>
+Depiction: https://repo.bonnie39.com/depiction/web/com.bonnie39.cyleo.html
+Icon: https://repo.bonnie39.com/assets/com.bonnie39.cyleo/icon.png
+Moderndepiction: https://repo.bonnie39.com/depiction/native/com.bonnie39.cyleo.json
+Name: Cydia
+Sileodepiction: https://repo.bonnie39.com/depiction/native/com.bonnie39.cyleo.json
+Someotherentrytocontrol: True
+Tags: compatible_min::ios12.0, compatible_max::ios27.0
+
