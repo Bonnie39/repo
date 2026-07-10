@@ -3,10 +3,10 @@ Label: Bonnie's Repo
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: A neat little place for my projects to live.
 
 SHA256:
- c95c9f7982ede2f9e1f959d53413edd6fcb1538aeafeee2b18a2ab6b7a9839ab 541 Packages.bz2
- ba7627c43672ba0cb4f34a929adb212560d84d44210ec5d8672511090d11b215 556 Packages.xz
+ d602dc84e67daef797ac383ae7ad19aa4bd03e6096d63e91d07fa8a16a308412 735 Packages.bz2
+ 427b93bed4168fc4a50bce43f7632b15ac165c5abf47e73673a547af3ea50902 680 Packages.xz
